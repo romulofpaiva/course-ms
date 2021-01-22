@@ -11,6 +11,5 @@ I've implemented some resources that the course doesn't cover like:
 - Unit Tests with JUnit and Mockito
 
 Stack used:
-- Spring Boot
-- Spring Web
-- Spring Cloud
+- Spring Framework (Boot, Cloud, Data, Web)
+- H2 Database para local tests
