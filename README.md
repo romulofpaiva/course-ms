@@ -9,3 +9,8 @@ I've implemented some resources that the course doesn't cover like:
 - Services
 - DTO
 - Unit Tests with JUnit and Mockito
+
+Stack used:
+- Spring Boot
+- Spring Web
+- Spring Cloud
