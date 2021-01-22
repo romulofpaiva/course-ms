@@ -9,6 +9,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import com.devsuperior.hrworker.dtos.WorkerDTO;
+
 @Entity
 @Table(name = "tb_worker")
 public class Worker implements Serializable {
@@ -29,6 +31,10 @@ public class Worker implements Serializable {
 		this.id = id;
 		this.name = name;
 		this.dailyIncome = dailyIncome;
+	}
+	
+	public WorkerDTO asDTO( ) {
+		return new WorkerDTO( this );
 	}
 
 	public Long getId() {
